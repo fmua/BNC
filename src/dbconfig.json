@@ -1,0 +1,8 @@
+
+{
+"dbhost" : "valetapp.c2s7kryks4ri.ca-central-1.rds.amazonaws.com",
+"dbname" : "valetapp",
+"dbuser" :"admin",
+"dbpassword" :"G1dbrdsTEST"
+}
+

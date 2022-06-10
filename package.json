@@ -1,0 +1,90 @@
+{
+  "name": "valet2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nbc-design/badge": "^3.0.10",
+    "@nbc-design/button": "^7.1.13",
+    "@nbc-design/card": "^2.0.14",
+    "@nbc-design/confirmation": "^2.1.12",
+    "@nbc-design/fieldset": "^2.0.21",
+    "@nbc-design/form-group": "^3.1.3",
+    "@nbc-design/icons": "^12.19.2",
+    "@nbc-design/input": "^4.1.18",
+    "@nbc-design/progress-bar": "^3.0.7",
+    "@nbc-design/radio": "^1.0.14",
+    "@nbc-design/text": "^2.1.9",
+    "@nbc-design/textarea": "^1.0.12",
+    "@nbc-design/toggle": "^1.1.14",
+    "@nbc-design/tokens": "^9.3.4",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "browserify-zlib": "^0.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.3",
+    "http-proxy-middleware": "^2.0.6",
+    "i18next": "^21.6.14",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "mysql": "^2.18.1",
+    "net": "^1.0.2",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "nodemon": "^2.0.16",
+    "path-browserify": "^1.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-fetch-hook": "^1.9.5",
+    "react-hook-form": "^7.31.3",
+    "react-i18next": "^11.16.2",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.2.2",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.0",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.2.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "start": "react-app-rewired --max_old_space_size=8096 start",
+    "build": "react-app-rewired --max_old_space_size=8096 build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}

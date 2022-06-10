@@ -1,0 +1,190 @@
+@import "@nbc-design/tokens/dist/assets/bnc-ui-fonts.css";
+@import "~@nbc-design/tokens/dist/styles/index.css";
+
+body {
+  margin: 0;
+  font-family: var(--ff-gilroy);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.formlabel{
+  font-family: var(--ff-system);
+  font-size: 18px; 
+  text-align: start;
+}
+.formselect{
+  font-family: var(--ff-system);
+  font-size: var(--fs-400); 
+  font-weight: var(--fw-medium);
+  text-align: start;
+  margin-bottom: 10px;
+}
+.formselectsingle{
+  font-family: var(--ff-system);
+  font-size: var(--fs-400); 
+  font-weight: var(--fw-medium);
+  text-align: start;
+  margin-bottom: 10px;
+}
+.formradio{
+  font-family: var(--ff-system);
+  font-size: 16px; 
+}
+
+ul {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  outline: none;
+}
+.appcontent {
+  padding-bottom: 10%;
+
+}
+.contentbutton {
+  width: 320px;
+}
+.badgesection {
+  height:35px;
+}
+.bg_screen {
+  background-color: var(--ice);
+  height: 100%;
+ 
+ 
+
+}
+.roomname {
+  padding-top: 3%;
+  color:black;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-semi-bold);
+}
+.roomtitle {
+  color:#628eb6;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "gilroy";
+ 
+}
+
+.bg_text {
+  text-align: start;
+  padding-left: 5%;
+}
+
+.img03 {
+  float: center;
+  margin-left: 5px;
+  margin-right: 5px;
+ /* margin-right: 25px;
+  padding-top: 50px;*/
+  padding-right: 5px;
+
+  max-width: 60px;
+  height: 50px;
+ 
+}
+
+.mandatory {
+  color: red;
+  padding-left: 4px;
+  font-size: 23px;
+
+}
+
+.spc-card-button.dsc-cardButton {
+  margin-bottom: var(--s-xsmall);
+  padding: var(--s-normal);
+}
+.spc-card-button.dsc-cardButton .dsc-radio__label {
+  min-height: 0;
+  padding: var(--s-normal);
+  margin: calc((var(--bs-small) * -1) + (var(--s-normal) * -1));
+}
+.bg_white{
+  background-color: #fff;
+}
+
+.div {
+  animation-duration: var(--ad-long);
+  animation-name: var(--ease-in-out-cubic);
+}
+
+
+div.fade-appear {
+  opacity: 0;
+}
+div.fade-apear.fade-apear-active {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+div.fade-exit {
+  opacity: 1;
+}
+div.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+div.fade-exit-done {
+  opacity: 0;
+}
+div.fade-enter {
+  opacity: 0;
+}
+div.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+
+.slide-enter{
+  opacity: 0;
+  transform: scale(0,97) translateY(5px);
+  z-index: 1;
+}
+.slide-enter.slide-enter-active{
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity 300ms linear 100ms tranform 300ms ease-in-out 100ms;
+}
+
+.slide-exit{
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+.slide-exit.slide-exit-active{
+  opacity: 0;
+  transform: scale(0,97) translateY(5px);
+  transition: opacity 150ms linear tranform 150ms ease-in-out;
+}
+.slide-exit-done {
+  opacity: 0;
+}
+
+
+.test {
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: infinite;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+
+{
+    "remedyloginhost" : "https://nbc-qa-restapi.onbmc.com/api/jwt/login",
+    "remedylogouthost" : "https://nbc-qa-restapi.onbmc.com/api/jwt/logout",
+    "remedyhost" : "https://nbc-qa-restapi.onbmc.com/api",
+    "remedyuser" : {
+        "name":"QRCode",
+        "password" : "?M6C6v\\FuAT~XI0`t@ux"
+    }
+  
+    }
+    
